@@ -200,7 +200,7 @@ body{
 }
 
 button.button1{
-    background: white;
+    background: rgb(255, 249, 230);
     outline: none;
     border: none;
     border-radius: 5px;
@@ -211,6 +211,10 @@ button.button1{
     cursor: pointer;
     font-weight: 600;
 }
+.button1:hover{
+    background-color: green;
+    color: white;
+}
 #banner button:hover{
     background-color: green;
     color: white;
@@ -220,6 +224,8 @@ button.button1{
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: white;
+    margin: 10px 0px;
+    padding: 20px;
 }
 
 #sm-banner .banner-box{
@@ -230,7 +236,58 @@ button.button1{
     background-image: url(images/banner/sm-banner1.jpg);
     background-position: center;
     background-size: cover;
-    min-width: 890px;
+    min-width: 850px;
     height: 40vh;
     padding: 30px;
+    color: rgb(14, 8, 75);
+    margin: 10px;
+}
+
+.button2{
+    background-color: rgba(211, 216, 221, 0);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 170, 105, 0);
+    transition: 0.2s;
+
+}
+.button2:hover{
+    background-color: rgba(211, 216, 221, 0);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(0, 170, 105);
+    color: white;
+}
+
+#ssm-banner{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+#ssm-banner #ssmbanner1{
+    background-image: url(images/banner/ssmbanner1.jpg);
+}
+#ssm-banner #ssmbanner2{
+    background-image: url(images/banner/ssmbanner2.jpg);
+}
+#ssm-banner #ssmbanner3{
+    background-image: url(images/banner/ssmbanner3.jpg);
+}
+
+.ssmbanner{
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    min-width: 250px;
+    height: 25vh;
+    display: flex;
+    align-items: c;
+    justify-content: center;
+    flex-direction: column;
 }

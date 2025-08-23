@@ -1,0 +1,26 @@
+PS D:\Desktop\B.TECH CSE\Full Stack dev\projects\smartCart> git init
+>>
+Reinitialized existing Git repository in D:/Desktop/B.TECH CSE/Full Stack dev/projects/smartCart/.git/
+PS D:\Desktop\B.TECH CSE\Full Stack dev\projects\smartCart> git add .
+>>
+PS D:\Desktop\B.TECH CSE\Full Stack dev\projects\smartCart> git commit -m "Initial commit for smartCart"
+>>
+On branch main
+nothing to commit, working tree clean
+PS D:\Desktop\B.TECH CSE\Full Stack dev\projects\smartCart> git remote add origin https://github.com/shankar-1319/smartCart.git
+>>
+error: remote origin already exists.
+PS D:\Desktop\B.TECH CSE\Full Stack dev\projects\smartCart> git push -u origin main
+>>
+info: please complete authentication in your browser...
+Enumerating objects: 45, done.
+Counting objects: 100% (45/45), done.  
+Delta compression using up to 4 threads
+Compressing objects: 100% (44/44), done.
+Writing objects: 100% (45/45), 17.19 MiB | 264.00 KiB/s, done.
+Total 45 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/shankar-1319/smartCart.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS D:\Desktop\B.TECH CSE\Full Stack dev\projects\smartCart>
