@@ -51,6 +51,10 @@ body{
     bottom: -4px;
     left: 20px;
 }
+#mobile{
+    display: none;
+    align-items: center;
+}
 #hero{
     background: url(images/poster1.png);
     width: 100vw;
@@ -336,4 +340,99 @@ button.button1{
     border-radius: 0px 5px 5px 0px;
     padding: 0px 10px;
     color: white;
+}
+#newsletter .form button:hover{
+    background-color: rgb(0, 255, 0);
+    outline: none;
+    border: none;
+    height: 42px;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0px 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#footer{
+   display: flex;
+   justify-content: space-around;
+   color: rgb(0, 0, 0);
+   background-color: aliceblue;
+}
+#footer .logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+#footer .logo .follow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+
+}
+.foooterlogo{
+    width: 200px;
+}
+#footer .col{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+#footer .col img{
+    width: 50px;
+}
+#footer .col a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#footer .col a:hover{
+    color: rgb(54, 54, 243);
+}
+
+.icon img{
+    height: 25px;
+    width: 25px;
+}
+#copyright{
+    background-color: rgb(223, 223, 223);
+    margin-top: 0px;
+    text-align: center;
+    line-height: 50px;
+}
+#bar{
+    border-radius: 5px 5px 0px 0px;
+    
+}
+/* start media quarry */
+@media (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        top: 70px;
+        right: -500px;
+        width: 300px;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 0px 20px 10px 10px rgba(85, 85, 85, 0.281);
+        padding: 20px 0px 0px 10px;
+        transition: 0.5s;
+        border-radius: 10px;
+    }
+    #navbar.active{
+        right:0px;
+    }
+    #navbar li{
+        margin-bottom:25px ;
+    }
+    #mobile{
+    display:flex;
+    align-items: center;
+}
+    
 }

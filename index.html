@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartelio</title>
     <link rel="icon" type="images/jpg" href="images/favicon.png"/>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
     <link
         rel="stylesheet"
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    
 
 </head>
 <body>
@@ -22,8 +24,13 @@
                 <li> <a href="blog.html">Blog</a> </li>
                 <li> <a href="about.html">About</a> </li>
                 <li> <a href="contact.html">Contact</a> </li>
-                <li> <a href="cart.html"><img src="icons/shopping.png" style="width: 20px;" alt=""></a> </li>
+                <li> <a href="cart.html"><img src="/images/icons/shopping.png" style="width: 20px;" alt=""></a> </li>
             </ul>
+        </div>
+        <div id="mobile">
+             <!-- - <br/> - <br> -  -->
+              <img src="/images/icons/shopping.png" style="width: 20px; cursor: pointer; padding: 10px; " alt=""/>
+            <img id="bar" src="images/icons/menu.png" alt="logo maissing" onclick = "fun1()" style="width: 20px; cursor: pointer; padding: 10px; transition: 0.5s;"/>
         </div>
     </section>
 
@@ -290,7 +297,7 @@
                         </div>
                         <div id="rating-cart">
                             <div>
-                                <div id="price">₹ 290/- </div>
+                                <div id="price">₹ 299/- </div>
                                 <div id="rating">
                                     <br/>
                                     <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
@@ -649,17 +656,71 @@
             </div>
             
         </section>
-        
+                     <!-- newsletter -->
         <section id="newsletter">
             <div class="newstext">
                 <h4>Sign Up for Newsletters</h4>
                 <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
             </div>
             <div class="form">
-                <input type="text" placeholder="Your email address"/>
-                <button>Sine Up</button>
+                <input type="email" placeholder="Your email address"/>
+                <button >Sine Up</button>
             </div>
         </section>
+
+        <footer id="footer">
+            <div class="logo">
+                <img class="foooterlogo" src="images/logo.png" alt="logo missing">
+                <h4>Contact</h4>
+                <p>
+                    <strong>Address:</strong> <br>wad-07 , Naruar , Jhanjharpur , madhubani , Bihar , India , 847235
+                </p>
+                <p>
+                    <strong>Phone:</strong><br> +91 9870452300 , +91 8851717478
+                </p>
+                <p>
+                    <strong>Developer:</strong><br> Shankar Kumar Ray
+                </p>
+                <h4>Follow Us </h4>
+                <div class="follow">
+                    
+                    <div class="icon">
+                        <a href="#@"><img src="images/icons/facebook.png" alt="logo missing"></a>
+                        <a href="#@"><img src="images/icons/instagram.png" alt="logo missing"></a>
+                        <a href="#@"><img src="images/icons/whatsapp.png" alt="logo missing"></a>
+                        <a href="#@"><img src="images/icons/youtube.png" alt="logo missing"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="about.html">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Coditions</a>
+                <a href="#">Conatct Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign in</a>
+                <a href="#">View Cart</a>
+                <a href="#">My wishlist</a>
+                <a href="#">Track my Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col ">
+                <h4>Install App</h4>
+                <a href="#">From AppStore <br><img src="images/icons/AppStrore.png" alt=""></a>
+                <a href="#">From GooglePlay <br><img src="images/icons/playStore.png" alt=""></a>
+                <a href="#">Secured Payment Gateways</a>
+                
+            </div>
+
+        </footer>
+        <div id="copyright">&copy 2025 , Tech2 etc - HTML CSS e-Commercial Templet</div>
 
     </section>
 </body>
